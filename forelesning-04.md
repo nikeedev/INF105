@@ -74,5 +74,6 @@ Latin small letter O:      о    U+006F
 ## Floating point
 * Høy *precision* nær 0, mindre *precision* jo større tallene blir
 
-**\[+-\] 1.\[mantisse\] x <sup>2</sup>**
+**\[+-\] 1.\[mantisse\] × 2<sup>\[eksponent\] - shift</sup>**
+
 
