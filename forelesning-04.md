@@ -76,4 +76,29 @@ Latin small letter O:      о    U+006F
 
 **\[+-\] 1.\[mantisse\] × 2<sup>\[eksponent\] - shift</sup>**
 
+## IEEE 754
+
+float, 4 bytes
+double, 8 bytes <- (python `float`)
+
+## File formats
+
+* samling av tekst og/eller tall i en avtalt rekkefølge
+* Vi skiller:
+    * plain-text <=> binary
+    * closed <=> open
+
+## Plain-text / binary
+* Plain-text formater kan åpnes og leses som ASCII / UTF+8 tekst
+    * .txt, .csv, .md, .py, .html, .css, .c, ...
+    * stort sett selvforklarende, enkel tilgang, krever ingen spesiell applikasjon
+    * ineffektiv med store mengder tall (23452 krever 5 ASCII-bytes, imotsetning til bare 2 bytes som int16)
+
+* Binærformater
+    * .doc, .bmp, .jpg, .mp3, .avi
+    * krever ekstern dokumentasjon (er verdiene 32bit? 64bit? heltall? float?)
+    * uten dok. knyttet til spesifikke programmer som kan tolke filen
+    * åpen format <-> lukket format
+
+
 
