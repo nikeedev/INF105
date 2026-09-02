@@ -12,6 +12,7 @@ ALU (Arithmetic Logic Unit)
 Compiler explorer: [https://godbolt.org](https://godbolt.org)
 
 
+```
 print("Hello World")
 
     Python-interpreter
@@ -23,3 +24,4 @@ print("Hello World")
                 Machine code instructions
 
                     CPU
+```
