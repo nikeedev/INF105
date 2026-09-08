@@ -68,6 +68,14 @@ Hardware
 
 * ikke lag din egen lisens, selv om det er mulig!
 
+# FOSS code used as base
+* GNU / Linux - stort sett GPL
+* macOS / Darwin - BSD-basert
+* clang/LLVM - Apache
 
-
+# Språkmodell
+* hvis input data er GPL
+* output? vi får ikke informasjon hvor den kommer i fra
+* LLM output itself is not copyrightable at all (USA)
+* Human authorship requirement
 
