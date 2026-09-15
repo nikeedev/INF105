@@ -51,7 +51,7 @@ Packetene kommer i ulik rekkefølge til mottakeren, så de markeres med posisjon
 * Application: **HTTP**, SMTP, FTP, SSH, DNS, lett å lage nye protokoller her, end system <-> endsystem
 * Transport: **TCP** (connection) eller **UDP** (connectionless) sender "segments" fra end system <-> end system
 * Network: **IP** (ingen andre valg på Internet) sender "datagrams / packets" mellom end systems fra én router til den neste
-* Link: 
-* Physical: 
+* Link: Ethernet, Wi-Fi, PPP, sender "frames" fra én enhet til den neste
+* Physical: elektriske signaler, radiosignaler, ..., sende bits fra én enhet til den neste
 
 
