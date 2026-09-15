@@ -54,4 +54,20 @@ Packetene kommer i ulik rekkefølge til mottakeren, så de markeres med posisjon
 * Link: Ethernet, Wi-Fi, PPP, sender "frames" fra én enhet til den neste
 * Physical: elektriske signaler, radiosignaler, ..., sende bits fra én enhet til den neste
 
+Brukes også: OSI-modell - 7 layers
+
+* Application: innhold, filnanv, domenanavn
+* Transport: TCP/UDP-ports
+* Network: IP-adresse
+* Link: MAC-adresse
+* Physical
+
+Eks:
+ 
+Hello
+
+Source 
+Application -> transport -> network -> link -> physical -> **Switch** -> physical -> ... link ... -> physical -> **Router** -> physical -> link -> network -> link -> physical -> Destination -> physical -> link -> network -> transport -> application.
+
+
 
