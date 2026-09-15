@@ -46,4 +46,12 @@ Packetene kommer i ulik rekkefølge til mottakeren, så de markeres med posisjon
 * fra 1995: tilgang til WWW er standard for studenter
 * 1995-2001: økonomisk boble
 
+## 5-layer modle
+
+* Application: **HTTP**, SMTP, FTP, SSH, DNS, lett å lage nye protokoller her, end system <-> endsystem
+* Transport: **TCP** (connection) eller **UDP** (connectionless) sender "segments" fra end system <-> end system
+* Network: **IP** (ingen andre valg på Internet) sender "datagrams / packets" mellom end systems fra én router til den neste
+* Link: 
+* Physical: 
+
 
