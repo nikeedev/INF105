@@ -3,12 +3,15 @@
 
 # Sending av data: Nettverk
 
-#### Utveksling av meldinger
+Utveksling av meldinger mellom A og B i løpet at tiden `t`
 
-A
-| hello   ^
-\\/        | hi 
-B
+## Over lang
 
-------------------> 
-       tid
+* røyk, tromme, duer, bål, ...
+* 1790: "Semaphores"
+* fra 1800-tallet: elektriske systermer
+* telegraf, 1837: morse, 1851: 30 000 km lange kabler i USA
+* 1. atlanterhavskabel 1866
+* telefon 1878/1879
+* radiotelegraf 1894
+
