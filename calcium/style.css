@@ -1,0 +1,20 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+:root {
+    --main-color: #6271f7;
+    --back-color: #282828;
+    --bottom-color: var(--back-color);
+    --top-color: var(--main-color);
+    --text-color: var(--main-color);
+    --name: var(--back-color);
+    --link-color: var(--main-color);
+    --link-menubar: var(--back-color);
+}
+html {
+/*    color: var(--main-color);*/
+    font-family: "Roboto", sans-serif;
+}
+
+a:any-link {
+    color: var(--main-color);
+}
