@@ -49,6 +49,10 @@ a:any-link {
 	padding: 20px;
 } 
 
-#terminal {
+#terminal, #out {
 	resize: none;
+}
+
+#out {
+
 }

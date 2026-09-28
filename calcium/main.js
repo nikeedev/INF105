@@ -19,7 +19,13 @@ setInterval(() => {
 */
 
 let term = document.getElementById("terminal");
+let out = document.getElementById("out");
 
-term.onkeydown = (event) => { }
+
+term.onkeydown = (event) => {
+    if (event.key == "Enter") {
+        term.
+    }
+}
 
 
