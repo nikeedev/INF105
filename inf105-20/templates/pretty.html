@@ -1,0 +1,21 @@
+<!doctype html>
+<html>
+<head>
+<title>Hello from Flask</title>
+</head>
+<body>
+
+{% if num %}
+  <h1>Hello, I agree that {{ num }} is the best number!</h1>
+  <p>Let's count up to it!</p>
+  {% for n in range(1,num+1) %}
+     <p><a href="/pretty/{{ n }}">{{ n }}</a></p>
+  {% endfor %}
+
+
+{% else %}
+  <h1>You should choose a number in the URL!</h1>
+{% endif %}
+
+</body>
+</html>

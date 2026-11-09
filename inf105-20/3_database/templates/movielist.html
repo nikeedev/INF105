@@ -1,0 +1,12 @@
+<table>
+
+{% for year, name, id in list|sort %}
+
+<tr>
+<td>{{ year }}</td>
+<td><a href="/movie/{{ id }}">{{ name }}</a></td>
+</tr>
+
+{% endfor %}
+
+</table>
